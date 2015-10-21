@@ -1,0 +1,33 @@
+{
+  "name": "node-es6",
+  "buildId": "Bundle",
+  "version": "1.0.0",
+  "description": "ES6 Training with Node",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodecourses/es6.git"
+  }
+  "author": "Jan Biasi <biasijan@gmail.com> (http://janbiasi.ch/)",
+  "copyright": "2015 © Node Courses",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodecourses/ES6/issues"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-gh-pages": "^0.5.2",
+    "gulp-header": "^1.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.3",
+    "gulp-uglify": "^1.2.0",
+    "object-assign": "^3.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "browserify": "^10.2.4",
+    "gulp-babel": "^5.1.0"
+  }
+}
