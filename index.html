@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Node.js - ES6 Application</title>
+    <style media="screen">
+        body{font-family: sans-serif;color:#000;max-width:1024px;margin:0 auto}
+    </style>
+</head>
+<body>
+    <h1>Online Shop</h1>
+    <p>Total price: <span id="summary">0</span> CHF</p>
+    <script type="text/javascript" src="dist/Bundle.js"></script>
+    <script type="text/javascript">
+        var sum = 0;
+        /**
+         * Add the demo-application here
+         * with one tray and two products.
+         */
+        document.getElementById('summary').innerHTML = sum;
+    </script>
+</body>
+</html>
