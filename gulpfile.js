@@ -15,14 +15,6 @@ var browserifyConfig = {
     standalone: pkg.buildId
 };
 
-gulp.task('deploy', function() {
-    return gulp.src('./docs/**/*')
-        .pipe(pages({
-            origin: 'origin',
-            branch: 'gh-pages'
-        }))
-});
-
 gulp.task('cleanDist', function() {
     return gulp.src('dist/**/*.js', {
             read: false
